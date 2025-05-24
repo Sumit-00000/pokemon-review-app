@@ -1,0 +1,57 @@
+.reviewedit{
+    flex: 4;
+    padding: 20px;
+}
+.editreviewtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviewtitle{
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 22px;
+}
+.editreviewboxtitle{
+    margin-left: 1px;
+}
+.editreviewlabel{
+    margin-left: 2px;
+}
+.editreviewcontainer{
+    display: flex;
+    margin-top: 20px;
+}
+.editreview{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+    margin-left: 20px;
+}
+.editreviewitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.editreviewinputitem{
+    border: none;
+    width: 250px;
+    height: 35 px;
+    border-bottom: 1px solid gray;
+}
+.editreviewsubmit{
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 10%;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
+}
+.editreviewsubmit:hover{
+    color: yellow;
+    font-weight: 400;
+}

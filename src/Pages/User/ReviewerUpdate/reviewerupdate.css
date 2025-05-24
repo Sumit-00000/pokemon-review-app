@@ -1,0 +1,139 @@
+.reviewer{
+    flex: 4;
+    padding: 20px;
+}
+.reviewertitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviewertitle{
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.revieweraddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.reviewerContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.reviewershow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+}
+.reviewerupdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+    margin-left: 20px;
+}
+.reviewershowTop{
+    display: flex;
+    align-items: center;
+}
+.reviewershowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.reviewershowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.reviewershowUsername{
+    font-weight: 600;
+}
+.reviewershowUsertitle{
+    font-weight: 300;
+}
+.reviewershowBottom{
+    margin-top: 20px;
+}
+.reviewershowTitle{
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+}
+.reviewerShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.reviewershowIcon{
+    font-size: 16px !important;
+}
+.reviewershowInfotitle{
+    margin-left: 10px;
+}
+.reviewerupdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.reviewerupdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.reviewerupdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.reviewerupdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.reviewerupdateInput{
+    border: none;
+    width: 250px;
+    height: 35 px;
+    border-bottom: 1px solid gray;
+}
+.categoryreviewerupdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.reviewerupdateUpload{
+    display: flex;
+    align-items: center;
+}
+.reviewerupdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.reviewerupdateIcon{
+    cursor: pointer;
+}
+.reviewerupdateButton{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
+}
+.reviewerupdateButton:hover{
+    color: yellow;
+    font-weight: 400;
+}

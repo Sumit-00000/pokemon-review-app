@@ -1,0 +1,140 @@
+.country{
+    flex: 4;
+    padding: 20px;
+}
+
+.countrytitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.countrytitle{
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.countryaddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.countryContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.countryshow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+}
+.countryupdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+    margin-left: 20px;
+}
+.countryshowTop{
+    display: flex;
+    align-items: center;
+}
+.countryshowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.countryshowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.countryshowUsername{
+    font-weight: 600;
+}
+.countryshowUsertitle{
+    font-weight: 300;
+}
+.countryshowBottom{
+    margin-top: 20px;
+}
+.countryshowTitle{
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+}
+.countryShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.countryshowIcon{
+    font-size: 16px !important;
+}
+.countryshowInfotitle{
+    margin-left: 10px;
+}
+.countryupdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.countryupdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.countryupdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.countryupdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.countryupdateInput{
+    border: none;
+    width: 250px;
+    height: 35 px;
+    border-bottom: 1px solid gray;
+}
+.categorycountryupdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.countryupdateUpload{
+    display: flex;
+    align-items: center;
+}
+.countryupdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.countryupdateIcon{
+    cursor: pointer;
+}
+.countryupdateButton{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
+}
+.countryupdateButton:hover{
+    color: yellow;
+    font-weight: 400;
+}

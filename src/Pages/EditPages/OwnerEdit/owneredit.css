@@ -1,0 +1,57 @@
+.owneredit{
+    flex: 4;
+    padding: 20px;
+}
+.editownertitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ownertitle{
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 22px;
+}
+.editownerboxtitle{
+    margin-left: 1px;
+}
+.editownerlabel{
+    margin-left: 2px;
+}
+.editownercontainer{
+    display: flex;
+    margin-top: 20px;
+}
+.editowner{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+    margin-left: 20px;
+}
+.editowneritem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.editownerinputitem{
+    border: none;
+    width: 250px;
+    height: 35 px;
+    border-bottom: 1px solid gray;
+}
+.editownersubmit{
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 10%;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
+}
+.editownersubmit:hover{
+    color: yellow;
+    font-weight: 400;
+}

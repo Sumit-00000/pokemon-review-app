@@ -1,0 +1,39 @@
+.ownerList{
+    flex: 4;
+}
+.ownerlistown{
+    display: flex;
+    align-items: center;
+}
+.ownerlistimg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.buttoncol{
+    display: flex;
+    align-items: center;
+}
+.ownerlistedit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.OwnerAddButton{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(203, 0, 0);
+}
+.ownerlistdelete{
+    color: red;
+    cursor: pointer;
+    margin-top: 5px;
+ }

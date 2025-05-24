@@ -1,0 +1,139 @@
+.categoryUser{
+    flex: 4;
+    padding: 20px;
+}
+.categoryusertitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.categoryusertitle{
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.categoryuseraddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+.categoryuserContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.categoryusershow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+}
+.categoryuserupdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+    margin-left: 20px;
+}
+.categoryusershowTop{
+    display: flex;
+    align-items: center;
+}
+.categoryusershowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.categoryusershowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.categoryusershowUsername{
+    font-weight: 600;
+}
+.categoryusershowUsertitle{
+    font-weight: 300;
+}
+.categoryusershowBottom{
+    margin-top: 20px;
+}
+.categoryusershowTitle{
+    font-weight: 600;
+    font-size: 14px;
+    color: gray;
+}
+.categoryuserShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.categoryusershowIcon{
+    font-size: 16px !important;
+}
+.categoryusershowInfotitle{
+    margin-left: 10px;
+}
+.categoryuserupdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.categoryuserupdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.categoryuserupdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.categoryuserupdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.categoryuserupdateInput{
+    border: none;
+    width: 250px;
+    height: 35 px;
+    border-bottom: 1px solid gray;
+}
+.categorycategoryuserupdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.categoryuserupdateUpload{
+    display: flex;
+    align-items: center;
+}
+.categoryuserupdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.categoryuserupdateIcon{
+    cursor: pointer;
+}
+.categoryuserupdateButton{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
+}
+.categoryuserupdateButton:hover{
+    color: yellow;
+    font-weight: 400;
+}

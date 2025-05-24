@@ -1,0 +1,57 @@
+.pokemonedit{
+    flex: 4;
+    padding: 20px;
+}
+.editpokemontitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 22px;
+}
+.editpokemonboxtitle{
+    margin-left: 1px;
+}
+.editpokemonlabel{
+    margin-left: 2px;
+}
+.editpokemoncontainer{
+    display: flex;
+    margin-top: 20px;
+}
+.editpokemon{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: -6px 1px 18px -11px #000000;
+    box-shadow: -6px 1px 18px -11px #000000;
+    margin-left: 20px;
+}
+.editpokemonitem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.editpokemoninputitem{
+    border: none;
+    width: 250px;
+    height: 35 px;
+    border-bottom: 1px solid gray;
+}
+.editpokemonsubmit{
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 10%;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
+}
+.editpokemonsubmit:hover{
+    color: yellow;
+    font-weight: 400;
+}

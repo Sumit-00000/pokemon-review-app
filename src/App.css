@@ -1,0 +1,85 @@
+:root {
+  --background: #ffffff;
+  --text: #000000;
+  --button-bg: #f0f0f0;
+  --button-text: #000000;
+}
+
+.dark-mode {
+  --background: #1e1e1e;
+  --text: #ffffff;
+  --button-bg: #333;
+  --button-text: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  transition: 0.3s ease-in-out;
+}
+
+* {
+  font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  /* margin-top: 10px; */
+}
+
+.others {
+  flex: 4;
+  /* background-color: aquamarine; */
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkhome {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkcategory {
+  text-decoration: none;
+  color: inherit;
+}
+.linkcountry{
+  text-decoration: none;
+  color: inherit;
+}
+.linkowner{
+  text-decoration: none;
+  color: inherit;
+}
+.linkReview{
+  text-decoration: none;
+  color: inherit;
+}
+.linkReviewer{
+  text-decoration: none;
+  color: inherit;
+}
+.linklogin{
+  text-decoration: none;
+  color: inherit;
+}
+.linkabout{
+  text-decoration: none;
+  color: inherit;
+}
+.error{
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.manoj{
+  flex: 4;
+}

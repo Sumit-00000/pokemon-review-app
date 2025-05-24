@@ -1,0 +1,8 @@
+{
+    "particles": {
+      "number": { "value": 40 },
+      "size": { "value": 4 },
+      "move": { "direction": "bottom", "speed": 2 }
+    }
+  }
+  
