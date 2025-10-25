@@ -1,0 +1,13 @@
+﻿namespace PokemonReviewApp.Dto
+{
+    public class OwnerDto
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public String Gym { get; set; }
+        public int CountryId { get; set; }
+        public int StateId { get; set; } 
+        public int CityId { get; set; }
+    }
+}
